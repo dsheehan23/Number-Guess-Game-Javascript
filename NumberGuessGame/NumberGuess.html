@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess My Number</title>
+    <meta charset="utf-8" />
+    <link href="NumberGame.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="NumberGame.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td rowspan="5">
+                <img src="gamelogo.jpg" alt="Game Logo" />
+            </td>
+            <td colspan="2" class="rangeLabel">
+                Number Range
+            </td>
+            <td rowspan="2" class="startButton">
+                <button type="button" name="start" id="start">Start</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="toFromLabels">
+                From:<br />
+                <input type="text" name="from" id="from" />
+            </td>
+            <td class="toFromLabels">
+                To:<br />
+                <input type="text" name="to" id="to" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="display">
+                <input class="inputIR" type="text" name="instruc" id="instruc" value="Please set range of numbers and press the Start button" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="text" name="guessbox" id="guessbox" /><br />
+                <button type="button" name="guess" id="guess">Guess</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="display">
+                <input class="inputIR" type="text" name="result" id="result" />
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
